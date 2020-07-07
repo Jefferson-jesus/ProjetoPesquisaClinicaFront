@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "ProjetoPesquisaClinicaFront"
+    }
+  },
+  "defaultProject": "ProjetoPesquisaClinicaFront",
+  "cli": {
+    "analytics": "a4667a0a-d121-4610-9847-2d61906be94f"
+  }
 }

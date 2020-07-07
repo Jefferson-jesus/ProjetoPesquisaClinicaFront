@@ -1,5 +1,5 @@
 import { BrowserModule } from '@angular/platform-browser';
-import { RouterModule, Routes } from '@angular/router';
+import { RouterModule, Routes, ChildrenOutletContexts } from '@angular/router';
 import { NgModule } from '@angular/core';
 
 import { AppComponent } from './app.component';
@@ -11,7 +11,7 @@ import { AppComponent } from './app.component';
   imports: [
     BrowserModule, RouterModule
   ],
-  providers: [],
+  providers: [ChildrenOutletContexts],
   bootstrap: [AppComponent]
 })
 export class AppModule { }
